@@ -1,0 +1,16 @@
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/domain/CommonProxyType.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/service/impl/DubboProxyServiceImpl.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/service/impl/CommonProxyServiceImpl.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/filter/ServiceFilter.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/domain/DubboProxyResp.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/service/CommonProxyService.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/utils/MapUtils.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/domain/DubboProxyReq.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/service/DubboProxyService.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/reader/ConsulServiceReader.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/controller/ProxyController.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/config/ConsulConfig.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/config/RestTemplateConfig.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/service/GenericInvoker.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/ProxyInvocationApp.java
+/Users/mac/Documents/project/standard/sp-proxy-integrations/sp-invocation-proxy-api/src/main/java/com/sp/proxy/platform/api/domain/CommonProxyReq.java

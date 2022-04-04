@@ -1,0 +1,17 @@
+com/sp/proxy/platform/api/config/ConsulConfig.class
+com/sp/proxy/platform/api/service/impl/CommonProxyServiceImpl$1.class
+com/sp/proxy/platform/api/utils/MapUtils.class
+com/sp/proxy/platform/api/config/RestTemplateConfig.class
+com/sp/proxy/platform/api/service/impl/DubboProxyServiceImpl.class
+com/sp/proxy/platform/api/filter/ServiceFilter.class
+com/sp/proxy/platform/api/service/CommonProxyService.class
+com/sp/proxy/platform/api/service/GenericInvoker.class
+com/sp/proxy/platform/api/service/impl/CommonProxyServiceImpl.class
+com/sp/proxy/platform/api/domain/CommonProxyType.class
+com/sp/proxy/platform/api/domain/DubboProxyReq.class
+com/sp/proxy/platform/api/domain/CommonProxyReq.class
+com/sp/proxy/platform/api/domain/DubboProxyResp.class
+com/sp/proxy/platform/api/service/DubboProxyService.class
+com/sp/proxy/platform/api/ProxyInvocationApp.class
+com/sp/proxy/platform/api/controller/ProxyController.class
+com/sp/proxy/platform/api/reader/ConsulServiceReader.class

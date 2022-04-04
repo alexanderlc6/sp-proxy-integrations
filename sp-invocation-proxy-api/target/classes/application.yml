@@ -1,0 +1,34 @@
+# 变量值需要区分环境或者需要动态设置值的才需要添加到配置中心
+management:
+  endpoint:
+    health:
+      show-details: always
+    web:
+      base-path:/v1
+
+dubbo:
+  application:
+    id: sp-invocation-proxy-api
+    name: sp-invocation-proxy-api
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 12001
+  registry:
+    address: localhost:2181
+    protocol: zookeeper
+  scan:
+    basePackages: com.sp.proxy.platform.api.service.*
+  health:
+    dubbo:
+      status:
+        defaults: memory
+        extras: load,threadpool
+
+
+sp:
+  consul:
+    clusters:
+      localhost:8500
+server:
+  port: 8010
