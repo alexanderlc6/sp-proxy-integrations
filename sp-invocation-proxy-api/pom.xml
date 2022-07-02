@@ -42,6 +42,10 @@
             <groupId>com.sp.framework</groupId>
             <artifactId>sp-framework-common</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.sp.framework</groupId>
+            <artifactId>sp-framework-web</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

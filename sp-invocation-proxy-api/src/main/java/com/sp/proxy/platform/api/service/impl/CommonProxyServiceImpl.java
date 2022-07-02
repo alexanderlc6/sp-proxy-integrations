@@ -1,6 +1,7 @@
 package com.sp.proxy.platform.api.service.impl;
 
 import com.google.common.collect.Lists;
+import com.sp.framework.common.exception.BusinessException;
 import com.sp.proxy.platform.api.domain.CommonProxyReq;
 import com.sp.proxy.platform.api.reader.ConsulServiceReader;
 import com.sp.proxy.platform.api.service.CommonProxyService;
@@ -56,12 +57,16 @@ public class CommonProxyServiceImpl implements CommonProxyService {
                 if(!domain.contains("http")){
                     List<String> addrs = consulServiceReader.getServices(req.getTarget());
                     if (CollectionUtils.isEmpty(addrs)) {
-                        throw new RuntimeException("未找到service:" + req.getTarget() + "服务IP");
+                        throw new BusinessException("未找到service:" + req.getTarget() + "服务IP");
                     }
                     Collections.shuffle(addrs);
                     domain = addrs.get(0);
                 }
                 break;
+            case HTTP:
+                if(!domain.startsWith("http") && !domain.startsWith("https")){
+
+                }
             default:
                 break;
         }
